@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import streamlit as st
 
 #Caricare il dataset per l'analisi
-file_path = '/content/drive/MyDrive/Sistemi informativi/Real estate valuation data set.xlsx'
+file_path = '/Users/carlo_air_2021/Desktop/Real estate valuation data set.xlsx'
 df = pd.read_excel(file_path)
 df.head()
 
